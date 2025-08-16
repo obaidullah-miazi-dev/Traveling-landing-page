@@ -61,6 +61,7 @@ git clone https://github.com/obaidullah-miazi-dev/Traveling-landing-page.git
 cd Traveling-landing-page
 open index.html
 
+```
 
 
 
