@@ -86,5 +86,6 @@ Feel free to use and modify, but please give credit. ❤️
 GitHub: obaidullah-miazi-dev
 
 Email: obaidullahmiazi.dev@gmail.com
+Linkedin: https://www.linkedin.com/in/obaidullah-miazi/
 
 ✨ Thank you for visiting my first project! More exciting projects are coming soon. 🚀
