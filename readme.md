@@ -50,17 +50,17 @@ This project is mainly a practice project for learning **HTML structure** and **
 
 ---
 
+
+
+
 ## 📥 Installation
 To use this project locally:
 
 ```bash
-# Clone the repository
 git clone https://github.com/obaidullah-miazi-dev/Traveling-landing-page.git
-
-# Go to the project folder
 cd Traveling-landing-page
+open index.html
 
-# Open index.html in your browser
 
 
 
