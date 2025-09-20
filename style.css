@@ -1,13 +1,18 @@
 * {
     margin: 0;
+    padding:0;
     box-sizing: border-box;
 }
 body{
     min-height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 
-
+#hero-container{
+    height: 100%;
+}
 .hero-section {
     width: 87.5%;
     padding: 100px 25px;
@@ -128,6 +133,7 @@ body{
 #destination-container,
 #book-trip-container {
     max-width: 87.5%;
+    height: 100%;
     margin: 150px auto;
 }
 
@@ -503,3 +509,5 @@ body{
     text-align: center;
     margin-bottom: 20px;
 }
+
+
