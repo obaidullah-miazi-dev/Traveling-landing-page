@@ -1,18 +1,20 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     min-height: 100vh;
     height: 100%;
     width: 100%;
 }
 
 
-#hero-container{
+#hero-container {
     height: 100%;
 }
+
 .hero-section {
     width: 87.5%;
     padding: 100px 25px;
@@ -302,8 +304,27 @@ body{
     padding-bottom: 0px;
     height: 370px;
     border-radius: 26px;
-    box-shadow: 40px -35px 80px rgba(78, 161, 255, 0.267);
+    /* box-shadow: 40px -35px 80px rgba(38, 131, 236, 0.842); */
     margin-right: 250px;
+    animation: colorRotation 5s infinite  linear;
+}
+
+@keyframes colorRotation {
+    0% {
+        box-shadow: 40px 0px 120px rgba(78, 161, 255, 0.466);
+    }
+    25% {
+        box-shadow: 0px 40px 120px rgba(78, 161, 255, 0.466);
+    }
+    50% {
+        box-shadow: -40px 0px 120px rgba(78, 161, 255, 0.466);
+    }
+    75% {
+        box-shadow: 0px -40px 120px rgba(78, 161, 255, 0.466);
+    }
+    100% {
+        box-shadow: 40px 0px 120px rgba(78, 161, 255, 0.466);
+    }
 }
 
 .trip-detail h3 {
@@ -370,6 +391,25 @@ body{
     padding: 30px;
     box-shadow: 20px 25px 80px rgba(255, 94, 0, 0.233);
     margin-right: 200px;
+    animation: colorRotation2 infinite 5s linear;
+}
+
+@keyframes colorRotation2 {
+    0% {
+        box-shadow: 40px 0px 120px rgba(255, 94, 0, 0.233);
+    }
+    25% {
+        box-shadow: 0px 40px 120px rgba(255, 94, 0, 0.233);
+    }
+    50% {
+        box-shadow: -40px 0px 120px rgba(255, 94, 0, 0.233);
+    }
+    75% {
+        box-shadow: 0px -40px 120px rgba(255, 94, 0, 0.233);
+    }
+    100% {
+        box-shadow: 40px 0px 120px rgba(255, 94, 0, 0.233);
+    }
 }
 
 .comment-container>p {
@@ -509,5 +549,3 @@ body{
     text-align: center;
     margin-bottom: 20px;
 }
-
-

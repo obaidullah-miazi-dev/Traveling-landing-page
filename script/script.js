@@ -17,7 +17,6 @@ gsap.from('#service-container .animation',{
     scrollTrigger:{
         trigger:'#service-container',
         scorller:'body',
-        // markers:true,
         start:'top 60%',
         end:'top 30%',
         scrub:3
@@ -34,7 +33,6 @@ gsap.from('#destination-container .animation',{
     scrollTrigger:{
         trigger:'#destination-container',
         scorller:'body',
-        markers:true,
         start:'top 60%',
         end:'top 30%',
         scrub:3
